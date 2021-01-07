@@ -1,0 +1,6 @@
+query ArtistQuery($id: ID!) {
+  artist(id: $id) {
+    id
+    name
+  }
+}
